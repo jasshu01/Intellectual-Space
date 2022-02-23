@@ -1,0 +1,40 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    border: 2px solid red;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(8, 31, 37);
+    color: aliceblue;
+}
+
+#add_title,
+#add_txt {
+    width: 80%;
+    margin-bottom: -10px;
+}
+
+input {
+    margin-bottom: 5px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.card-body {
+    margin: 0;
+    padding: 5px;
+}
+
+#add_btn {
+    width: 70%;
+    margin: 10px;
+}

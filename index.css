@@ -1,0 +1,152 @@
+/* body {
+    
+    background: radial-gradient(circle at top, rgb(56, 8, 78) 0, rgb(172, 106, 97), rgb(90, 194, 90) 100%);
+
+	background-size: 400% 400%;
+	animation: gradient 50s ease infinite;
+    border:linear ;
+}
+nav {
+    
+	background: linear-gradient(-70deg, #201e1d, #b9527a, #46add3, #065542);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    border:linear ;
+}
+
+.btn{
+    background: linear-gradient(-70deg, #e2d3cb, #c4a5b1, #d3be46, #68e9cb); ;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    border: 2px solid red;
+    width: 500px;
+    height: 500px;
+}
+
+#h1,
+#h2 {
+    /* margin-left: ;
+    margin-top: 2rem;
+    margin-bottom: 1rem; */
+    margin: auto;
+}
+
+.container {
+    width: 83%;
+    display: flex;
+    margin: 10px;
+}
+
+.addNote {
+    width: 70%;
+    /* border:2px solid black; */
+    margin: 10px;
+    /* margin-top: 1rem; */
+    padding: 12px 34px;
+    /* margin-bottom: 2rem; */
+}
+
+.card {
+    padding: 12px 13px;
+}
+
+#notes_here {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+#add_title,
+#add_txt {
+    width: 100%;
+}
+
+#dlt_all_btn {
+    margin-left: 87%;
+    border: 2px solid black;
+    margin-top: -7%;
+    /* margin-right: -13%; */
+    margin-left: 80%;
+    width: 12vw;
+}
+
+#clock {
+    float: right;
+    margin-right: 5%;
+    margin-top: 0.5%;
+    size: 12px;
+    border: 2px solid rgb(197, 197, 219);
+    border-radius: 4%;
+    padding: 5px;
+    color: white;
+}
+
+#timespan {
+    float: right;
+    color: black;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.setReminder,
+.all_reminders {
+    width: 55%;
+    margin: auto;
+    padding: 12px 23px;
+}
+
+.setReminder input {
+    margin-top: 5px;
+}
+
+.setReminder table label {
+    text-align: right;
+}
+
+.all_reminders {
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.reminderCard {
+    width: 22%;
+}
+
+#reminders_details {
+    display: flex;
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+}
